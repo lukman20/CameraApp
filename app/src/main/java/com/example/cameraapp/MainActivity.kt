@@ -75,5 +75,6 @@ class MainActivity : AppCompatActivity() {
         cameraIntent.putExtra(MediaStore.EXTRA_OUTPUT, uriPhoto)
         // start aplikasi kamera
         startActivityForResult(cameraIntent, REQUEST_CAMERA_CODE)
+
     }
 }
